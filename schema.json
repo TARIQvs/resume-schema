@@ -61,13 +61,16 @@
             "city": {
               "type": "string"
             },
-            "countryCode": {
-              "type": "string",
-              "description": "code as per ISO-3166-1 ALPHA-2, e.g. US, AU, IN"
-            },
-            "region": {
+            "District": {
               "type": "string",
               "description": "The general region where you live. Can be a US state, or a province, for instance."
+            },
+            "State": {
+              "type": "string"
+            },
+            "Country": {
+              "type": "string",
+              "description": "code as per ISO-3166-1 ALPHA-2, e.g. US, AU, IN"
             }
           }
         },
@@ -469,3 +472,4 @@
   "title": "Resume Schema",
   "type": "object"
 }
+
