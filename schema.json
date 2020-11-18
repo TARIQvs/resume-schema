@@ -138,6 +138,15 @@
             "type": "string",
             "description": "Give an overview of your responsibilities at the company"
           },
+          "jobRoles": {
+            "type": "array",
+            "description": "Specify job roles",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "e.g. client meetings."
+            }
+          },
           "highlights": {
             "type": "array",
             "description": "Specify multiple accomplishments",
