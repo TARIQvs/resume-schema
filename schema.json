@@ -385,7 +385,11 @@
             "type": "string",
             "description": "e.g. Web Development"
           },
-          "ISBN": {
+          "isbn": {
+            "type": "string",
+            "description": "ISBN Number with link"
+          },
+          "isbnLink": {
             "type": "string",
             "description": "ISBN Number with link"
           },
