@@ -376,8 +376,6 @@
     "reading": {
       "type": "array",
       "description": "List out the reading list",
-      "ISBN": "ISBN Number",
-      "Author": "Authors Name",
       "additionalItems": false,
       "items": {
         "type": "object",
@@ -386,6 +384,14 @@
           "name": {
             "type": "string",
             "description": "e.g. Web Development"
+          },
+          "ISBN": {
+            "type": "string",
+            "description": "ISBN Number with link"
+          },
+          "Author": {
+            "type": "string",
+            "description": "Authors Name"
           },
           "level": {
             "type": "string",
