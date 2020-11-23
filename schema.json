@@ -373,6 +373,36 @@
         }
       }
     },
+    "reading": {
+      "type": "array",
+      "description": "List out the reading list",
+      "ISBN": "ISBN Number",
+      "Author": "Authors Name",
+      "additionalItems": false,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "e.g. Web Development"
+          },
+          "level": {
+            "type": "string",
+            "description": "e.g. Master"
+          },
+          "keywords": {
+            "type": "array",
+            "description": "List some keywords pertaining to this reading",
+            "additionalItems": false,
+            "items": {
+              "type": "string",
+              "description": "e.g. HTML"
+            }
+          }
+        }
+      }
+    },
     "references": {
       "type": "array",
       "description": "List references you have received",
