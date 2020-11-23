@@ -397,9 +397,9 @@
             "type": "string",
             "description": "Authors Name"
           },
-          "level": {
-            "type": "string",
-            "description": "e.g. Master"
+          "status": {
+            "type": "Number",
+            "description": "e.g. from 10,30,50,70,90,100 list the percentage of completion"
           },
           "keywords": {
             "type": "array",
